@@ -61,23 +61,3 @@ const typed = new Typed('.multiple-text', {
 });
 
 
-function submitForm() {
-    const form = document.getElementById('contact-form');
-
-    // Realizar validaciones aquí si es necesario
-
-    // Obtener los datos del formulario
-    const formData = new FormData(form);
-
-    // Enviar los datos a través de una solicitud AJAX
-    const xhr = new XMLHttpRequest();
-    xhr.open('POST', 'tu_script_de_procesamiento.php', true); // Reemplaza 'tu_script_de_procesamiento.php' con el nombre de tu script de procesamiento en el servidor
-    xhr.onreadystatechange = function () {
-        if (xhr.readyState === 4 && xhr.status === 200) {
-            // Manejar la respuesta del servidor aquí
-            console.log(xhr.responseText);
-        }
-    };
-    xhr.send(formData);
-}
-
