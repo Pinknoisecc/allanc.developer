@@ -272,12 +272,6 @@ span {
     transition: .5s ease;
 }
 
-.logo-vertical{
-    width: 80%;
-    padding: 0 2rem; /* ajusta el espaciado según tus necesidades */
-    margin-left: 40px;
-}
-
 .portfolio-box:hover img {
     transform: scale(1.1);
 }
@@ -304,11 +298,29 @@ span {
 
 .portfolio-layer h4 {
     font-size: 2rem;
+    text-shadow: -1px -1px 0 #000,  
+                1px -1px 0 #000,
+                1px 1px 0 #000,
+                1px 1px 0 #000;
+}
+
+.portfolio-layer h3 {
+    color: black;
+    font-size: 200%;
+    margin-bottom: 10px;
+    border: 6px solid white; /* Define el contorno */
+    background-color: white;
+    border-radius: 10px; /* Redondea las esquinas del contorno */
+    text-align: center; /* Centra el texto */
 }
 
 .portfolio-layer p {
     font-size: 1.4rem; /* ajusta el tamaño de la fuente según tus necesidades */
-    margin: .3rem 0 1rem;
+    margin: .3rem 0 2rem;
+    text-shadow: -1px -1px 0 #000,  
+                1px -1px 0 #000,
+                1px 1px 0 #000,
+                1px 1px 0 #000;
 }
 
 .portfolio-layer a {
@@ -319,6 +331,7 @@ span {
     height: 4rem;
     background: var(--text-color);
     border-radius: 50%;
+    margin: 15px;
 }
 
 .portfolio-layer a i {
