@@ -46,14 +46,14 @@ ScrollReveal({
 });
 
 ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
-ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .contact form', { origin: 'bottom' });
-ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
-ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
+ScrollReveal().reveal('.home-img, .servicios-sanitarios-container, .electricidad-box, .contact form', { origin: 'bottom' });
+ScrollReveal().reveal('.home-content h1, .gasfiteria-img', { origin: 'left' });
+ScrollReveal().reveal('.home-content p, .gasfiteria-content', { origin: 'right' });
 
 
 /*==================== typed js ====================*/
 const typed = new Typed('.multiple-text', {
-    strings: ['Desarrollador Front end', 'Community Manager', 'Diseñador Gráfico'],
+    strings: ['Gasfitería', 'Servicios sanitarios', 'Electricidad', 'Estructuras Metálicas'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
