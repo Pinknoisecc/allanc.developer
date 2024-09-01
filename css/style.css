@@ -428,6 +428,24 @@ span {
 
 
 /* BREAKPOINTS */
+@media (max-width: 1300px) {
+    .navbar a {
+        margin-left: 3.5rem;
+    }
+    .header {
+        padding: 2rem 6%;
+    }
+}
+
+@media (max-width: 1250px) {
+    .navbar a {
+        margin-left: 3.4rem;
+    }
+    .header {
+        padding: 2rem 5.5%;
+    }
+}
+
 @media (max-width: 1200px) {
     html {
         font-size: 55%;
